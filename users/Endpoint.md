@@ -1,8 +1,8 @@
-# /api/users - Users
+# /users - Users
 
 ## Get all users
 
-GET /api/users
+GET /users
 
 Response :
 
@@ -10,7 +10,7 @@ Response :
 
 ## Create user
 
-POST /api/users
+POST /users
 
 Request body :
 
@@ -20,7 +20,7 @@ Request body :
 
 ## Get user
 
-GET /api/users/{username}
+GET /users/{username}
 
 Response :
 
@@ -28,7 +28,7 @@ Response :
 
 ## Modify user
 
-PATCH /api/users/{username}
+PATCH /users/{username}
 
 **Require auth.**
 

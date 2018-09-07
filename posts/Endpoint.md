@@ -1,8 +1,8 @@
-# /api/posts - Posts
+# /posts - Posts
 
 ## Get all posts
 
-GET /api/posts
+GET /posts
 
 Response :
 
@@ -10,7 +10,7 @@ Response :
 
 ## Create post
 
-POST /api/posts
+POST /posts
 
 **Require auth. Needed permissions : `POST_WRITE`**
 
@@ -23,7 +23,7 @@ Request body :
 
 ## Get post
 
-GET /api/posts/{post-url}
+GET /posts/{post-url}
 
 Response :
 
@@ -31,7 +31,7 @@ Response :
 
 ## Modify post
 
-PATCH /api/posts/{post-url}
+PATCH /posts/{post-url}
 
 **Require auth. Needed permissions : `POST_WRITE`**
 
@@ -44,6 +44,6 @@ Request body :
 
 ## Delete post
 
-DELETE /api/posts/{post-url}
+DELETE /posts/{post-url}
 
 **Require auth. Needed permissions : `POST_WRITE`**
