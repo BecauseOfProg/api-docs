@@ -8,6 +8,9 @@ The root URL for the API is `https://api.becauseofprog.fr/v1`.
 
 ## Summary
 
-- [Users](users/Endpoint.md)
-  - [Permissions](users/Permissions.md)
-- [Posts](posts/Endpoint.md)
+- [Change log](CHANGELOG.md)
+- **Resources**
+  - [Auth](auth/Endpoint.md)
+  - [Users](users/Endpoint.md)
+    - [Permissions](users/Permissions.md)
+  - [Posts](posts/Endpoint.md)
