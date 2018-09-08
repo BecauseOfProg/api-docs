@@ -1,13 +1,5 @@
 # /users - Users
 
-## Get all users
-
-GET /users
-
-Response :
-
-- `users` : List, all users
-
 ## Create user
 
 POST /users
