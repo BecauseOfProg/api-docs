@@ -1,5 +1,9 @@
 # Change log
 
+## Breaking change : Auth now in a header
+
+**September 24, 2018 :** The token should be passed in the `Authorization` header of the request.
+
 ## Removed : Access to all users
 
 **September 8, 2018 :** The /users endpoint with GET method is no longer available.

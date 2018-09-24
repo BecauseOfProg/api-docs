@@ -13,4 +13,4 @@ Response :
 
 - `token` : String, token of the user.
 
-**To use the token in requests that require auth, add `?token={token}` at the end of the URL.**
+**To use the token in requests that require auth, add the `Authorization` header with your token inside.**
