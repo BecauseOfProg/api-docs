@@ -35,6 +35,16 @@ Request body :
 - `location` : String, location
 - `socials` : List of dicts, social networks of the user
 
+## Get user's permissions
+
+GET /users/{username}/permissions
+
+**Requires auth and `USER_WRITE` permission.**
+
+Response :
+
+- `permissions` : List, all the permissions that user has
+
 ## Edit user's permissions
 
 PATCH /users/{username}/permissions

@@ -1,5 +1,11 @@
 # 🕓 Change log
 
+## Added : Get user's permissions
+
+**January 5, 2018 :** getting user's permissions is now in `/users/{username/permissions` and requires `USER_WRITE` permission. [Details](users/Endpoint.md#get-users-permissions)
+
+**Affecting :** [Get user](users/Endpoint.md#get-user)
+
 ## Changed : `avatar` is now `picture`
 
 **January 5, 2018 :** user field `avatar` has been renamed into `picture`. [Details](users/Endpoint.md)
