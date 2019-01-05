@@ -28,8 +28,8 @@ PATCH /users/{username}
 
 Request body :
 
-- `avatar` : String, profile picture
 - `displayname` : String, name which is displayed on comments and profile (length : minimum 2, maximum 32)
+- `picture` : String, profile picture
 - `description` : String, description with some infos
 - `biography`: String, biography
 - `location` : String, location

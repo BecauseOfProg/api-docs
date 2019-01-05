@@ -1,5 +1,11 @@
 # 🕓 Change log
 
+## Changed : `avatar` is now `picture`
+
+**January 5, 2018 :** user field `avatar` has been renamed into `picture`. [Details](users/Endpoint.md)
+
+**Affecting :** [Get user](users/Endpoint.md#get-user), [Edit user's profile](users/Endpoint.md#edit-users-profile)
+
 ## Added : /users/{username}/permissions
 
 **January 5, 2018 :** added the possibility to edit user's permissions. [Details](users/Endpoint.md#edit-users-permissions)
