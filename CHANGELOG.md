@@ -1,5 +1,9 @@
 # 🕓 Change log
 
+## Added : /users/{username}/permissions
+
+**January 5, 2018 :** added the possibility to edit user's permissions. [Details](users/Endpoint.md#edit-users-permissions)
+
 ## Added : `USER_WRITE` and `BLOG_WRITE` permissions
 
 **January 5, 2018 :** updated permissions list to add these two permissions. [Details](users/Permissions.md)

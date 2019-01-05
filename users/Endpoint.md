@@ -24,7 +24,7 @@ Response :
 
 PATCH /users/{username}
 
-**Require auth.**
+**Requires auth.**
 
 Request body :
 
@@ -34,3 +34,13 @@ Request body :
 - `biography`: String, biography
 - `location` : String, location
 - `socials` : List of dicts, social networks of the user
+
+## Edit user's permissions
+
+PATCH /users/{username}/permissions
+
+**Requires auth and `USER_WRITE` permission.**
+
+Request body :
+
+- `permissions` : List, all the permissiosn granted to the user
