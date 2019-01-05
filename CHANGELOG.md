@@ -1,5 +1,9 @@
 # Change log
 
+## Updated : Modify user request's parameters change
+
+**January 5, 2018 :** `avatar` added and `email` removed.
+
 ## Breaking change : Auth now in a header
 
 **September 24, 2018 :** The token should be passed in the `Authorization` header of the request.
