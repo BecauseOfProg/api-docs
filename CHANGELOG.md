@@ -1,5 +1,9 @@
 # 🕓 Change log
 
+## Added : `USER_WRITE` and `BLOG_WRITE` permissions
+
+**January 5, 2018 :** updated permissions list to add these two permissions. [Details](users/Permissions.md)
+
 ## Updated : Modify user request's parameters change
 
 **January 5, 2018 :** `avatar` added and `email` removed.
