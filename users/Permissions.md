@@ -1,6 +1,6 @@
-# Permissions list
+# ✅ Permissions list
 
-## News
+Here is a list of all the permissions that users can have. They grant access to different parts of the API.
 
-- `POST_WRITE`
-  - Description : give write access on news to user. Then, he can use POST, PATCH et DELETE HTTP methods on the `posts` endpoint.
+- News : `POST_WRITE`
+  - Description : give write access on news to user. Then, he can use `POST`, `PATCH` and `DELETE` HTTP methods on the `posts` endpoint.

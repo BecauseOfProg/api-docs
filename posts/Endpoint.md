@@ -1,5 +1,7 @@
 # /posts - Posts
 
+Posts are created by BOP's members and inform about the news around the team, the projects or anything else.
+
 ## Get all posts
 
 GET /posts
@@ -12,12 +14,13 @@ Response :
 
 POST /posts
 
-**Require auth. Needed permissions : `POST_WRITE`**
+**Requires auth and `POST_WRITE` permission**
 
 Request body :
 
 - `title` : String, title
 - `url` : String, URL to the post
+  **Must be unique**
 - `category` : String, category
 - `content` : String, content using Markdown
 
@@ -29,11 +32,11 @@ Response :
 
 - `post` : Dictionnary, the requested post
 
-## Modify post
+## Edit post
 
 PATCH /posts/{post-url}
 
-**Require auth. Needed permissions : `POST_WRITE`**
+**Requires auth and `POST_WRITE` permission**
 
 Request body :
 
@@ -46,4 +49,4 @@ Request body :
 
 DELETE /posts/{post-url}
 
-**Require auth. Needed permissions : `POST_WRITE`**
+**Requires auth and `POST_WRITE` permission**

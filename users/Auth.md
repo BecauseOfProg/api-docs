@@ -1,4 +1,6 @@
-# /auth - Authentication
+# 🔐 /auth - Authentication
+
+In order to do some actions, a guest must be authenticated as a user.
 
 ## Get user token
 
@@ -13,4 +15,4 @@ Response :
 
 - `token` : String, token of the user.
 
-**To use the token in requests that require auth, add the `Authorization` header with your token inside.**
+**To use authentication in requests that require it, add the `Authorization` header with your token inside.**

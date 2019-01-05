@@ -1,4 +1,6 @@
-# /users - Users
+# 👥 /users - Users
+
+Users are the central part of the API. They interact with content and, in some cases, create it.
 
 ## Create user
 
@@ -18,7 +20,7 @@ Response :
 
 - `user` : Dictionnary, the requested user
 
-## Modify user
+## Edit user's profile
 
 PATCH /users/{username}
 
