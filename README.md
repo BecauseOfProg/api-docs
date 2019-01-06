@@ -11,8 +11,10 @@ Every response is in JSON format, and has in its body a `code` which is `1` or `
 ## 📄 Summary
 
 - [Change log](CHANGELOG.md)
+- [License](LICENSE)
+- **Topics**
+  - [Authentication](topics/Authentication.md)
+  - [Permissions](topics/Permissions.md)
 - **Resources**
-  - [Users](users/Endpoint.md)
-    - [Permissions](users/Permissions.md)
-    - [Auth](users/Auth.md)
-  - [Posts](posts/Endpoint.md)
+  - [Post](resources/Post.md)
+  - [User](resources/User.md)
