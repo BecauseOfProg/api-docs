@@ -1,5 +1,11 @@
 # 🕓 Change log
 
+## Changed : Optional fields
+
+**April 9, 2019 :** All the fields in some PATCH requests are now optional, meaning that you can only include fields that you're going to edit.
+
+**Affecting :** [Edit user's profile](resources/User.md#edit-users-profile), [Edit post](resources/Post.md#edit-post).
+
 ## Added : User's informations with post
 
 **April 9, 2019 :** when a post is returned, all the users informations are returned.

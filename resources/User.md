@@ -43,16 +43,7 @@ Get user's informations based on his username. Retuns a [user object](#user-obje
 
 Edit the user's profile informations. Requires auth, and user has to be itself.
 
-### Request body
-
-| Field       | Type            | Description                                | Can be null ? |
-| ----------- | --------------- | ------------------------------------------ | ------------- |
-| displayname | string          | "pretty" name to display (2-32 characters) |               |
-| picture     | string          | url of the user's profile picture          |               |
-| description | string          | user's description, markdown format        | ✅            |
-| biography   | string          | user's biography                           | ✅            |
-| location    | string          | user's location                            | ✅            |
-| socials     | list of objects | user's social networks                     | ✅ (`[]`)     |
+**Editable fields :** `displayname`, `picture`, `description`, `biography`, `locations`, `socials`.
 
 ## Get user's permissions
 

@@ -40,7 +40,7 @@ Write a new post and publish it. Requires auth and `POST_WRITE` permission.
 
 `GET /posts/{post.url}`
 
-Get one post by its URL. Returns a [post object](#post-object).
+Get one post by its URL. Returns a [post object](#post-object) with post's content.
 
 ## Edit post
 
@@ -48,14 +48,7 @@ Get one post by its URL. Returns a [post object](#post-object).
 
 Edit a post. Requires auth and `POST_WRITE` permission.
 
-### Request body
-
-| Field    | Type   | Description                     |
-| -------- | ------ | ------------------------------- |
-| title    | string | post's title                    |
-| banner   | string | post's banner                   |
-| category | string | post's category                 |
-| content  | string | post's content, markdown format |
+**Editable fields :** `title`, `category`, `banner`, `content`.
 
 ## Delete post
 
