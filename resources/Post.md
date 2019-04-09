@@ -10,7 +10,7 @@ Posts are created by BOP members and inform about the news around the team, the 
 | url       | string  | post's URL                      |                                         |
 | category  | string  | post's category                 |                                         |
 | banner    | string  | post's banner                   |                                         |
-| author    | string  | username of post's author       |                                         |
+| author    | object  | [user object](User.md)          |                                         |
 | timestamp | integer | unix timestamp, post creation   |                                         |
 | content   | string  | post's content, markdown format | ✅ (if inclued in a many-posts request) |
 

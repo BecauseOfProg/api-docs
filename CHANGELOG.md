@@ -1,5 +1,11 @@
 # 🕓 Change log
 
+## Added : User's informations with post
+
+**April 9, 2019 :** when a post is returned, all the users informations are returned.
+
+**Affecting :** [Post resource](resources/Post.md)
+
 ## Added : Get user's permissions
 
 **January 5, 2018 :** getting user's permissions is now in `/users/{username/permissions` and requires `USER_WRITE` permission. [Details](users/Endpoint.md#get-users-permissions)
