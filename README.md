@@ -18,3 +18,4 @@ Every response is in JSON format, and has in its body a `code` which is `1` or `
 - **Resources**
   - [Post](resources/Post.md)
   - [User](resources/User.md)
+  - [Arduino](resources/Arduino.md)

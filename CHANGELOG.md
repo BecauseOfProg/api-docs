@@ -1,5 +1,9 @@
 # 🕓 Change log
 
+## Added : Arduino projects endpoint
+
+**April 9, 2019 :** The API now includes the future Arduino projects hub. [Details](resources/Arduino.md)
+
 ## Changed : Optional fields
 
 **April 9, 2019 :** All the fields in some PATCH requests are now optional, meaning that you can only include fields that you're going to edit.
@@ -14,7 +18,7 @@
 
 ## Added : Get user's permissions
 
-**January 5, 2018 :** getting user's permissions is now in `/users/{username/permissions` and requires `USER_WRITE` permission. [Details](users/Endpoint.md#get-users-permissions)
+**January 5, 2018 :** getting user's permissions is now in `/users/{username/permissions` and requires `USER_WRITE` permission. [Details](resources/User.md#get-users-permissions)
 
 **Affecting :** [Get user](resources/User.md#get-user)
 
