@@ -17,5 +17,6 @@ Every response is in JSON format, and has in its body a `code` which is `1` or `
   - [Permissions](topics/Permissions.md)
 - **Resources**
   - [Post](resources/Post.md)
+  - [Blog post](resources/BlogPost.md)
   - [User](resources/User.md)
   - [Arduino](resources/Arduino.md)

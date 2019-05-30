@@ -1,5 +1,9 @@
 # 🕓 Change log
 
+## Added : Blog posts endpoint
+
+**May 30, 2019 :** You can now access to blog posts via a new endpoint. [Details](resources/BlogPost.md)
+
 ## Added : Arduino projects endpoint
 
 **April 9, 2019 :** The API now includes the future Arduino projects hub. [Details](resources/Arduino.md)
