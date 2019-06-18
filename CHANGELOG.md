@@ -1,5 +1,13 @@
 # 🕓 Change log
 
+## Updated : return data clarification
+
+**May 30, 2018 :** All returned data is now in a `data` list / object.
+
+## Added : Get all users
+
+**May 30, 2018 :** Users with the `USER_WRITE` permission can now get all other users. [Details](resources/User.md#get-all-users)
+
 ## Added : Blog posts endpoint
 
 **May 30, 2019 :** You can now access to blog posts via a new endpoint. [Details](resources/BlogPost.md)

@@ -18,7 +18,13 @@ Posts are created by BOP members and inform about the news around the team, the 
 
 `GET /posts`
 
-Get all the posts. Returns a `posts` list with [post objects](#post-object) inside.
+Get all the posts. Returns a `data` list with [post objects](#post-object) inside.
+
+## Get one post
+
+`GET /posts/{post.url}`
+
+Get one post by its URL. Returns a `data` object corresponding to a [post object](#post-object) with post's content.
 
 ## Create post
 
@@ -35,12 +41,6 @@ Write a new post and publish it. Requires auth and `POST_WRITE` permission.
 | url      | string | post's URL                      |
 | category | string | post's category                 |
 | content  | string | post's content, markdown format |
-
-## Get post
-
-`GET /posts/{post.url}`
-
-Get one post by its URL. Returns a [post object](#post-object) with post's content.
 
 ## Edit post
 
