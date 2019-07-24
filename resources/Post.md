@@ -4,15 +4,15 @@ Posts are created by BOP members and inform about the news around the team, the 
 
 ### Post object
 
-| Field     | Type    | Description                     | Can be null ?                           |
-| --------- | ------- | ------------------------------- | --------------------------------------- |
-| title     | string  | post's title                    |                                         |
-| url       | string  | post's URL                      |                                         |
-| category  | string  | post's category                 |                                         |
-| banner    | string  | post's banner                   |                                         |
-| author    | object  | [user object](User.md)          |                                         |
-| timestamp | integer | unix timestamp, post creation   |                                         |
-| content   | string  | post's content, markdown format | ✅ (if inclued in a many-posts request) |
+| Field     | Type                   | Description                     | Can be null ?                           |
+| --------- | ---------------------- | ------------------------------- | --------------------------------------- |
+| title     | string                 | post's title                    |                                         |
+| url       | string                 | post's URL                      |                                         |
+| category  | string                 | post's category                 |                                         |
+| banner    | string                 | post's banner                   |                                         |
+| author    | [user object](User.md) | post's author                   |                                         |
+| timestamp | integer                | unix timestamp, post creation   |                                         |
+| content   | string                 | post's content, markdown format | ✅ (if inclued in a many-posts request) |
 
 ## Get all posts
 

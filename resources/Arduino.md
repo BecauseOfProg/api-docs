@@ -14,7 +14,7 @@ All the Arduino projects from the [projects hub](https://arduino.becauseofprog.f
 | video         | string                             | video to illustrate project        | ✅            |
 | link          | string                             | link to further informations       | ✅            |
 | description   | string                             | project's description              | ✅            |
-| timestamp     | int                                | unix timestamp, project's creation |               |
+| timestamp     | integer                            | unix timestamp, project's creation |               |
 | is_from_staff | boolean                            | if the project is from the staff   |               |
 | is_featured   | boolean                            | if the project is featured         |               |
 
