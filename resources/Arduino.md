@@ -2,6 +2,8 @@
 
 All the Arduino projects from the [projects hub](https://arduino.becauseofprog.fr) are in this endpoint.
 
+**Warning : this service isn't online yet !**
+
 ### Arduino project object
 
 | Field         | Type                               | Description                        | Can be null ? |
