@@ -1,5 +1,9 @@
 # 🕓 Change log
 
+## Added : blog posts locale
+
+**August 18, 2019 :** Blog posts can now be in different languages. For the moment, only french and english are supported.
+
 ## Updated : return data clarification
 
 **May 30, 2018 :** All returned data is now in a `data` list / object.

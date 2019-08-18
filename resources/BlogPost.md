@@ -15,6 +15,7 @@ These posts are created by BOP members in the blog. They can be articles, tutori
 | description      | string                 | a summary of post's content      |                                         |
 | labels           | list of strings        | labels for SEO                   |                                         |
 | banner           | string                 | post's banner                    |                                         |
+| locale           | string                 | post's locale                    |                                         |
 | article_language | string                 | `html` or `md`                   |                                         |
 | content          | string                 | post's content, markdown format  | ✅ (if inclued in a many-posts request) |
 
@@ -38,7 +39,7 @@ Get the last published post. Returns a `data` object corresponsing to a [post ob
 
 Write a new post and publish it. Requires auth and `BLOG_WRITE` permission.
 
-### Required data body
+### Required data
 
 | Field       | Type            | Description                     |
 | ----------- | --------------- | ------------------------------- |
@@ -50,6 +51,12 @@ Write a new post and publish it. Requires auth and `BLOG_WRITE` permission.
 | labels      | list of strings | labels for SEO                  |
 | banner      | string          | post's banner                   |
 | content     | string          | post's content, markdown format |
+
+### Optional data
+
+| Field  | Type   | Description   | Default value |
+| ------ | ------ | ------------- | ------------- |
+| locale | string | post's locale | fr            |
 
 ## Get one post
 
