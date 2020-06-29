@@ -20,6 +20,8 @@ Posts are created by BOP members and inform about the news around the team, the 
 
 Get all the posts. Returns a list of [post objects](#post-object) without the content.
 
+This endpoint uses [pagination](../topics/Pagination.md).
+
 ## Get one post
 
 `GET /posts/{post.url}`

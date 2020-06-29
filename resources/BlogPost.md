@@ -27,6 +27,8 @@ For the moment, a post can be in HTML or Markdown. This is precised in the `arti
 
 Get all the posts. Returns a list of [blog post objects](#blog-post-object) without the content.
 
+This endpoint uses [pagination](../topics/Pagination.md).
+
 ## Get last post
 
 `GET /blog-posts/last`

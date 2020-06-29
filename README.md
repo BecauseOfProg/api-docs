@@ -8,6 +8,7 @@
 - [License](LICENSE)
 - **Topics**
   - [Authentication](topics/Authentication.md)
+  - [Pagination](topics/Pagination.md)
   - [Permissions](topics/Permissions.md)
 - **Resources**
   - [Post](resources/Post.md)
