@@ -25,4 +25,12 @@ First of all, you need a URL in order to access it. The root URL for the API is 
 | ------- | --------- |
 | 1       | Available |
 
-Every response is in JSON format, and has in its body a `code` which is `1` or `0`, depending on the request's success or not, and all requested fields.
+### Requests
+
+Some requests need user to be authenticated : learn mode on the [Authentication topic](topics/Authentication.md).
+
+Every request to the API that require a body must be JSON-formatted, with an object as a container.
+
+### Responses
+
+Every response is in JSON format, and has in its body a `code` which is `1` or `0`, depending on the request's success or not, and a `data` variable containing the requested data.

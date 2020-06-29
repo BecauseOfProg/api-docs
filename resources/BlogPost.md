@@ -25,13 +25,13 @@ For the moment, a post can be in HTML or Markdown. This is precised in the `arti
 
 `GET /blog-posts`
 
-Get all the posts. Returns a `data` list with [post objects](#blog-post-object) inside.
+Get all the posts. Returns a list of [blog post objects](#blog-post-object) without the content.
 
 ## Get last post
 
 `GET /blog-posts/last`
 
-Get the last published post. Returns a `data` object corresponsing to a [post object](#blog-post-object).
+Get the last published post. Returns a [blog post object](#blog-post-object).
 
 ## Create post
 
@@ -62,7 +62,7 @@ Write a new post and publish it. Requires auth and `BLOG_WRITE` permission.
 
 `GET /blog-posts/{post.url}`
 
-Get one post by its URL. Returns a `data` object corresponding to a [post object](#blog-post-object) with post's content.
+Get one post by its URL. Returns a full [blog post object](#blog-post-object).
 
 ## Edit post
 

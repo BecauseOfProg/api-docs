@@ -4,27 +4,27 @@ Posts are created by BOP members and inform about the news around the team, the 
 
 ### Post object
 
-| Field     | Type                   | Description                     | Can be null ?                           |
-| --------- | ---------------------- | ------------------------------- | --------------------------------------- |
-| title     | string                 | post's title                    |                                         |
-| url       | string                 | post's URL                      |                                         |
-| category  | string                 | post's category                 |                                         |
-| banner    | string                 | post's banner                   |                                         |
-| author    | [user object](User.md) | post's author                   |                                         |
-| timestamp | integer                | unix timestamp, post creation   |                                         |
-| content   | string                 | post's content, markdown format | ✅ (if inclued in a many-posts request) |
+| Field     | Type                               | Description                     | Can be null ?                           |
+| --------- | ---------------------------------- | ------------------------------- | --------------------------------------- |
+| title     | string                             | post's title                    |                                         |
+| url       | string                             | post's URL                      |                                         |
+| category  | string                             | post's category                 |                                         |
+| banner    | string                             | post's banner                   |                                         |
+| author    | [user object](User.md#user-object) | post's author                   |                                         |
+| timestamp | integer                            | unix timestamp, post creation   |                                         |
+| content   | string                             | post's content, markdown format | ✅ (if inclued in a many-posts request) |
 
 ## Get all posts
 
 `GET /posts`
 
-Get all the posts. Returns a `data` list with [post objects](#post-object) inside.
+Get all the posts. Returns a list of [post objects](#post-object) without the content.
 
 ## Get one post
 
 `GET /posts/{post.url}`
 
-Get one post by its URL. Returns a `data` object corresponding to a [post object](#post-object) with post's content.
+Get one post by its URL. Returns a [post object](#post-object) with post's content.
 
 ## Create post
 

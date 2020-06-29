@@ -21,13 +21,13 @@ Users are the central part of the API. They interact with content and, in some c
 
 `GET /users`
 
-Get all the users. Returns a `data` object corresponding to a [user object](#user-object). Requires auth and `USER_WRITE` permission.
+Get all the users. Returns a list of [user objects](#user-object). Requires auth and `USER_WRITE` permission.
 
 ## Get user
 
 `GET /users/{user.username}`
 
-Get user's informations based on his username. Retuns a `data` object corresponding to a [user object](#user-object).
+Get user's informations based on his username. Retuns a [user object](#user-object).
 
 ## Create user
 
@@ -55,7 +55,7 @@ Edit the user's profile informations. Requires auth, and user has to be itself.
 
 `GET /users/{user.username}/permissions`
 
-Get the permissions a user has. Returns a `data` list. Requires auth and `USER_WRITE` permission.
+Get the permissions a user has. Returns a list containing the permissions. Requires auth and `USER_WRITE` permission.
 
 ## Edit user's permissions
 
