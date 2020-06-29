@@ -43,7 +43,6 @@ Write a new post and publish it. Requires auth and `BLOG_WRITE` permission.
 
 | Field       | Type            | Description                     |
 | ----------- | --------------- | ------------------------------- |
-| url         | string          | post's URL                      |
 | title       | string          | post's title                    |
 | type        | string          | post's category                 |
 | category    | string          | post's category                 |

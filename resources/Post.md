@@ -38,7 +38,6 @@ Write a new post and publish it. Requires auth and `POST_WRITE` permission.
 | -------- | ------ | ------------------------------- |
 | title    | string | post's title                    |
 | banner   | string | post's banner                   |
-| url      | string | post's URL                      |
 | category | string | post's category                 |
 | content  | string | post's content, markdown format |
 
