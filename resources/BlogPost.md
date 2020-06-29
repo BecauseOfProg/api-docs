@@ -4,20 +4,20 @@ These posts are created by BOP members in the blog. They can be articles, tutori
 
 ### Blog post object
 
-| Field            | Type                   | Description                      | Can be null ?                           |
-| ---------------- | ---------------------- | -------------------------------- | --------------------------------------- |
-| url              | string                 | post's URL                       |                                         |
-| title            | string                 | post's title                     |                                         |
-| timestamp        | integer                | unix timestamp, post creation    |                                         |
-| author           | [user object](User.md) | informations about post's author |                                         |
-| type             | string                 | post's category                  |                                         |
-| category         | string                 | post's category                  |                                         |
-| description      | string                 | a summary of post's content      |                                         |
-| labels           | list of strings        | labels for SEO                   |                                         |
-| banner           | string                 | post's banner                    |                                         |
-| locale           | string                 | post's locale                    |                                         |
-| article_language | string                 | `html` or `md`                   |                                         |
-| content          | string                 | post's content, markdown format  | ✅ (if inclued in a many-posts request) |
+| Field            | Type                   | Description                              | Can be null ?                           |
+| ---------------- | ---------------------- | ---------------------------------------- | --------------------------------------- |
+| url              | string                 | post's URL                               |                                         |
+| title            | string                 | post's title                             |                                         |
+| timestamp        | integer                | unix timestamp, post creation            |                                         |
+| author           | [user object](User.md) | informations about post's author         |                                         |
+| type             | string                 | post's type (article / tutorial / flash) |                                         |
+| category         | string                 | post's category                          |                                         |
+| description      | string                 | a summary of post's content              |                                         |
+| labels           | list of strings        | labels for SEO                           |                                         |
+| banner           | string                 | post's banner                            |                                         |
+| locale           | string                 | post's locale                            |                                         |
+| article_language | string                 | `html` or `md`                           |                                         |
+| content          | string                 | post's content, markdown format          | ✅ (if inclued in a many-posts request) |
 
 For the moment, a post can be in HTML or Markdown. This is precised in the `article_language` field.
 
@@ -26,6 +26,13 @@ For the moment, a post can be in HTML or Markdown. This is precised in the `arti
 `GET /blog-posts`
 
 Get all the posts. Returns a list of [blog post objects](#blog-post-object) without the content.
+
+### Optional URL parameters
+
+| Name     | Type   | Description                              |
+| -------- | ------ | ---------------------------------------- |
+| category | string | post's category                          |
+| type     | string | post's type (article / tutorial / flash) |
 
 This endpoint uses [pagination](../topics/Pagination.md).
 
