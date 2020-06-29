@@ -31,6 +31,8 @@ Get user's informations based on his username. Retuns a [user object](#user-obje
 
 ## Create user
 
+This endpoint isn't available for the moment. We're considering changing our users system.
+
 `POST /users`
 
 Create a new user.
