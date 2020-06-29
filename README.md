@@ -13,7 +13,6 @@
   - [Post](resources/Post.md)
   - [Blog post](resources/BlogPost.md)
   - [User](resources/User.md)
-  - [Arduino](resources/Arduino.md)
 
 ## Introduction
 
