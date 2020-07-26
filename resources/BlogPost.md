@@ -29,10 +29,11 @@ Get all the posts. Returns a list of [blog post objects](#blog-post-object) with
 
 ### Optional URL parameters
 
-| Name     | Type   | Description                              |
-| -------- | ------ | ---------------------------------------- |
-| category | string | post's category                          |
-| type     | string | post's type (article / tutorial / flash) |
+| Name       | Type   | Description                                            |
+| ---------- | ------ | ------------------------------------------------------ |
+| category   | string | post's category                                        |
+| type       | string | post's type (article / tutorial / flash)               |
+| search     | string | search for articles (text inside title or description) |
 
 This endpoint uses [pagination](../topics/Pagination.md).
 
@@ -41,6 +42,12 @@ This endpoint uses [pagination](../topics/Pagination.md).
 `GET /blog-posts/last`
 
 Get the last published post. Returns a [blog post object](#blog-post-object).
+
+## Get random post
+
+`GET /blog-posts/random`
+
+Get a random post among all our collection. Returns a [blog post object](#blog-post-object).
 
 ## Create post
 
