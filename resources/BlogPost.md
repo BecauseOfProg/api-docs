@@ -16,10 +16,7 @@ These posts are created by BOP members in the blog. They can be articles, tutori
 | labels           | list of strings        | labels for SEO                           |                                         |
 | banner           | string                 | post's banner                            |                                         |
 | locale           | string                 | post's locale                            |                                         |
-| article_language | string                 | `html` or `md`                           |                                         |
 | content          | string                 | post's content, markdown format          | ✅ (if inclued in a many-posts request) |
-
-For the moment, a post can be in HTML or Markdown. This is precised in the `article_language` field.
 
 ## Get all posts
 
@@ -33,6 +30,7 @@ Get all the posts. Returns a list of [blog post objects](#blog-post-object) with
 | ---------- | ------ | ------------------------------------------------------ |
 | category   | string | post's category                                        |
 | type       | string | post's type (article / tutorial / flash)               |
+| author     | string | post's author (their identifier)                       |
 | search     | string | search for articles (text inside title or description) |
 
 This endpoint uses [pagination](../topics/Pagination.md).
