@@ -13,6 +13,7 @@
 - **Resources**
   - [Post](resources/Post.md)
   - [Blog post](resources/BlogPost.md)
+  - [Comment](resources/Comment.md)
   - [User](resources/User.md)
 
 ## Introduction
