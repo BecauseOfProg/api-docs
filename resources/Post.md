@@ -22,6 +22,12 @@ Get all the posts. Returns a list of [post objects](#post-object) without the co
 
 This endpoint uses [pagination](../topics/Pagination.md).
 
+## Get last post
+
+`GET /posts/last`
+
+Get the latest post. Returns a [post object](#post-object) with post's content.
+
 ## Get one post
 
 `GET /posts/{post.url}`
