@@ -21,13 +21,17 @@ Comments are made by readers on specific blog posts to give their opinion, sugge
 
 `GET /comments`
 
-Get the comments on all articles. Returns an array of [comment objects](#comment-object). Requires auth and `USER_WRITE` permission.
+Get all the comments published on any article. Returns an array of [comment objects](#comment-object). Requires auth and `USER_WRITE` permission.
+
+This endpoint uses [pagination](../topics/Pagination.md).
 
 ## Get comments on an article
 
 `GET /comments/{post.url}`
 
-Get comments published on a specific article. Returns an array of [comment objects](#comment-object)
+Get comments published on a specific article. Returns an array of [comment objects](#comment-object).
+
+This endpoint uses [pagination](../topics/Pagination.md).
 
 ## Submit a comment
 
