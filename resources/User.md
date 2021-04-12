@@ -14,7 +14,7 @@ Users are the central part of the API. They interact with content and, in some c
 | biography        | string          | user's biography                                             | ✅              |
 | location         | string          | user's location                                              | ✅              |
 | socials          | list of objects | user's social networks                                       | ✅ (`[]`)       |
-| is_email_public? | boolean         | wether the user's email is public or private                 |                 |
+| is_email_public? | boolean         | whether the user's email is public or private                 |                 |
 | email            | string          | user's email, if it's public                                 | ✅ (if private) |
 
 ## Get all users
